@@ -6,7 +6,7 @@
 ### 1. Multipage Website
 - **Описание:** Многостраничный сайт, созданный на чистом HTML. Первый учебный проект, посвященный основам верстки.
 - **Технологии:** HTML.
-- **[Посмотреть проект](https://username.github.io/frontend-learning-projects/multi-page-website)**
+- **[Посмотреть проект](https://github.com/tsokka/study-projects/blob/main/control_task_1.zip)**
 
 ### 2. Landing Page
 - **Описание:** Адаптивный лендинг с использованием Flexbox и CSS Grid.
