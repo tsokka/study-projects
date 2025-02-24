@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../assets/fonts/Nunitoregular.woff");
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../assets/fonts/Nunitobold.woff");
+    font-weight: bold;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    background-color: #EDEEF3;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #F7F7F7;
+    width: 250px;
+    flex-shrink: 0;
+    border-right: 1px solid #E2E2E2;
+    position: relative;
+}
+
+.logo {
+    padding: 25px 0 27px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation-item a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 13px 15px;
+    margin: 0 16px 0 17px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.navigation-item a span {
+    font-size: 14px;
+    line-height: 19px;
+    color: #858796;
+    padding-left: 10px;
+}
+
+.navigation-item a:hover,
+.navigation:not(:hover) .navigation-item:first-child a {
+    background-color: #467DF2;
+}
+
+.navigation-item a:hover span,
+.navigation:not(:hover) .navigation-item:first-child a span {
+    color: #FFFFFF;
+}
+
+.navigation-item a:hover svg path,
+.navigation:not(:hover) .navigation-item:first-child a svg path {
+    fill: #FFFFFF;
+}
+
+.navigation-item a .span-statistic {
+    padding-left: 14px;
+}
+
+.feedback {
+    padding: 13px 12px;
+    position: absolute;
+    bottom: 0;
+    margin: 17px;
+    cursor: default;
+    border: 1px solid #F7F7F7;
+    transition: .3s;
+}
+
+.feedback:hover {
+    border: 1px solid #467DF2;
+    border-radius: 5px;
+}
+
+.feedback svg {
+    float: left;
+    margin-right: 6px;
+}
+
+.feedback p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #4F4E4F;
+}
+
+.feedback p a {
+    text-decoration: none;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.header {
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 15px 41px 13px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.header-menu a svg {
+    padding-right: 60px;
+}
+
+.header-menu a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #858796;
+    text-decoration: none;
+    display: flex;
+}
+
+.header-menu-tasks:hover a,
+.header-menu a:hover {
+    color: #3D63D2;
+}
+
+.header-menu-tasks:hover svg path {
+    fill: #3D63D2;
+}
+
+.header-search a:hover path {
+    fill: #467DF2;
+}
+
+.header-menu-tasks {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-menu-tasks a {
+    padding-right: 5px;
+}
+
+.header-menu-tasks:hover .header-menu-tasks-window {
+    display: block;
+}
+
+.header-menu-tasks-window {
+    display: none;
+    position: absolute;
+    box-shadow: 0 4px 20px 0 #66666626;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+    color: #686464;
+    top: 36px;
+    padding: 23px 13px;
+    border-radius: 10px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.header-menu-tasks-window div {
+    padding: 7px;
+}
+
+.header-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header-search input {
+    background: #EFEFF5;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 10px 44px 11px 44px;
+    width: 373px;
+    box-sizing: border-box;
+    margin-right: 40px;
+    outline: none;
+}
+
+.header-search input::placeholder {
+    color: #B3B3B3;
+}
+
+.loupe {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+
+.button {
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #467DF2;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 11px 18px 10px 18px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: #2F54A3;
+}
+
+.button.button-support:hover {
+    padding-bottom: 20px;
+    top: 247px;
+}
+
+.button.button-support {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px 20px;
+    display: flex;
+    position: fixed;
+    transform: rotate(-90deg);
+    top: 257px;
+    right: 0;
+    transform-origin: 100% 100%;
+    transition: .3s;
+}
+
+.button svg {
+    display: flex;
+    transform: rotate(90deg);
+}
+
+.button span {
+    display: flex;
+    margin-left: 10px;
+}
+
+.container {
+    padding: 25px 55px 73px 54px;
+    position: relative;
+}
+
+.dashboard h1 {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+    color: #4F4E4F;
+    padding-bottom: 20px;
+}
+
+.dashboard-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dashboard-item {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    max-width: 350px;
+    position: relative;
+}
+
+.dashboard-item:hover {
+    box-shadow: 0 4px 20px 0 #66666626;
+}
+
+.dashboard-item-image {
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 350px;
+    height: 200px;
+}
+
+.dashboard-item-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 27px;
+}
+
+.dashboard h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4F4E4F;
+    padding-bottom: 8px;
+}
+
+.dashboard span {
+    font-size: 15px;
+    line-height: 30px;
+    color: #4F4E4F;
+    padding-bottom: 18px;
+}
+
+.dashboard-item-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-item-icons svg:hover path,
+.dashboard-item-icons svg:hover ellipse {
+    fill: #467DF2;
+}
+
+.video {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.dashboard-item .on-moderation {
+    color: #4F4E4F;
+    background-color: #F7F7F7CC;
+}
+
+.dashboard-item .published {
+    color: #027900;
+    background-color: #C6E0C3;
+}
+
+.dashboard-item .error {
+    color: #DB0C0C;
+    background-color: #FFBCBCCC;
+}

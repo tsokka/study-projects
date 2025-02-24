@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWorks Registration</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1 class="registration-logo">home<span class="registration-logo-w">W</span>orks</h1>
+<section class="registration">
+    <form class="form" id="form">
+        <h2 class="registration-title" id="registration-title">Get your free account</h2>
+        <p class="registration-text">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever)
+            anytime.</p>
+        <div class="form-group" id="full-name-group">
+            <label class="form-label" for="full-name">Full Name</label>
+            <input class="form-input" type="text" id="full-name">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="username">Your username</label>
+            <input class="form-input" type="text" id="username">
+        </div>
+        <div class="form-group" id="email-group">
+            <label class="form-label" for="email">E-mail</label>
+            <input class="form-input" type="email" id="email">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="password">Password</label>
+            <input class="form-input" type="password" id="password">
+        </div>
+        <div class="form-group" id="repeat-password-group">
+            <label class="form-label" for="repeat-password">Repeat Password</label>
+            <input class="form-input" type="password" id="repeat-password">
+        </div>
+        <div class="form-checkbox" id="checkbox-block">
+            <label class="form-checkbox-label" for="checkbox">Agree to our Terms of Service and Privacy
+                Statement</label>
+            <input class="form-checkbox-input" type="checkbox" id="checkbox">
+        </div>
+        <button class="btn">Sign Up</button>
+        <a href="#" class="account" id="account">Already have an account?</a>
+    </form>
+    <div class="registration-img">
+        <img src="assets/images/image.png" alt="logo" class="img">
+    </div>
+</section>
+
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <h2 class="popup-text">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</h2>
+        <button class="btn" id="btn-ok">OK</button>
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>

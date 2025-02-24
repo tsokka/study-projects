@@ -1,0 +1,566 @@
+/*1024 - 1179px*/
+@media screen and (max-width: 1179px) {
+    .container {
+        padding: 0 20px 0 20px;
+    }
+
+    .header__container {
+        justify-content: space-between;
+    }
+
+    .footer__container {
+        /*grid-template: 34px 34px / 169px 120px 153px;*/
+        grid-template: 34px 34px / auto auto auto;
+        column-gap: 0;
+    }
+
+    .menu__list,
+    .header__phone {
+        padding-left: 0;
+    }
+
+    .about__img {
+        width: 500px;
+    }
+
+    .about__img-macaroon {
+        width: 100%;
+    }
+
+    .products__list {
+        grid-template: 2fr / 263px 263px;
+        row-gap: 136px;
+        justify-content: center;
+    }
+
+    .order__strawberry {
+        left: 23px;
+    }
+
+    .order__strawberry-2 {
+        right: 22px;
+    }
+
+    .footer__phone {
+        justify-self: end;
+    }
+}
+
+/*768 - 1023px*/
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 38px 0 24px 0;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .main__container {
+        flex-direction: column;
+        position: relative;
+        display: block;
+    }
+
+    .order__container {
+        flex-direction: row-reverse;
+        justify-content: flex-end
+    }
+
+    .main__info {
+        padding: 73px 0 420px 0;
+        position: relative;
+    }
+
+    .main__text {
+        padding-top: 74px;
+        padding-bottom: 41px;
+    }
+
+    .main__img {
+        margin-left: 0;
+        padding: 0;
+        position: absolute;
+        top: 352px;
+        right: 35px;
+    }
+
+    .about {
+        z-index: 1;
+        position: relative;
+    }
+
+    .about__info {
+        grid-template: auto auto auto / 1fr;
+        text-align: center;
+        row-gap: 0;
+    }
+
+    .about__title {
+        max-width: 475px;
+        justify-self: center;
+    }
+
+    .about__text {
+        max-width: 671px;
+        justify-self: center;
+        padding: 61px 0 40px 0;
+    }
+
+    .about__img {
+        grid-row: 3 / 4;
+        justify-self: center;
+        width: 302px;
+    }
+
+    .about__advantages {
+        justify-content: center;
+        grid-template: 1fr / repeat(2, 220px);
+        padding-top: 88px;
+        column-gap: 54px;
+        text-align: center;
+    }
+
+    .about__advantage-circle {
+        justify-self: center;
+    }
+
+    .products__list {
+        grid-template: 2fr / 263px 263px;
+        row-gap: 136px;
+        justify-content: center;
+    }
+
+    .order {
+        padding: 120px 0 120px 0;
+        position: relative;
+    }
+
+    .order__img {
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        top: 245px;
+        right: 20px;
+        width: 352px;
+        height: auto;
+    }
+
+    .order__input-title {
+        padding-bottom: 6px;
+    }
+
+    .order__strawberry {
+        left: 352px;
+        top: 224px;
+    }
+
+    .order__strawberry-2 {
+        top: 118px;
+        left: 610px;
+    }
+
+    @keyframes jump {
+        0% {
+            top: 224px;
+        }
+        50% {
+            top: 211px;
+        }
+        100% {
+            top: 224px;
+        }
+    }
+
+    @keyframes jump-2 {
+        0% {
+            top: 118px;
+        }
+        50% {
+            top: 105px;
+        }
+        100% {
+            top: 118px;
+        }
+    }
+
+    .footer__container {
+        column-gap: 135px;
+        grid-template: 34px 34px / 169px 120px auto;
+    }
+
+    .footer__phone {
+        justify-self: end;
+    }
+
+    .present {
+        z-index: 10;
+    }
+}
+
+
+/*425 - 767px*/
+@media screen and (max-width: 767px) {
+    .header__container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .menu {
+        padding-top: 19px;
+    }
+
+    .main__container {
+        display: flex;
+        text-align: center;
+    }
+
+    .main__info {
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__img {
+        top: 0;
+        right: 0;
+        width: 350px;
+        position: relative;
+        padding: 38px 0 43px 0;
+    }
+
+    .main__box-of-macaroons {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px 0 50px 0;
+    }
+
+    .footer__container {
+        grid-template: 59px 59px 50px 58px 13px / 1fr;
+        column-gap: 0;
+        justify-items: center;
+    }
+
+    .footer__logo {
+        align-self: flex-start;
+    }
+
+    .footer__phone {
+        padding-left: 0;
+        grid-row: 2 / 3;
+        justify-self: center;
+        align-self: flex-start;
+    }
+
+    .insta__text {
+        grid-row: 4 / 5;
+        align-self: start;
+    }
+
+    .footer__rights {
+        grid-row: 5 / 6;
+    }
+}
+
+/*425 - 708px*/
+@media screen and (max-width: 708px) {
+    .order__img,
+    .order__strawberry-2 {
+        display: none;
+    }
+}
+
+/*425 - 597px*/
+@media screen and (max-width: 597px) {
+    .products__list {
+        grid-template: 4fr / 263px;
+        row-gap: 142px;
+    }
+}
+
+/*425 - 539px*/
+@media screen and (max-width: 539px) {
+    .about {
+        padding: 100px 0 100px 0;
+    }
+
+    .about__title {
+        font-size: 30px;
+        max-width: 316px;
+    }
+
+    .about__text {
+        max-width: 346px;
+        padding: 40px 0 59px 0;
+    }
+
+    .about__img {
+        width: 302px;
+    }
+
+    .order__strawberry {
+        left: 275px;
+        top: 133px;
+    }
+
+    @keyframes jump {
+        0% {
+            top: 133px;
+        }
+        50% {
+            top: 120px;
+        }
+        100% {
+            top: 133px;
+        }
+    }
+}
+
+/*375 - 424px*/
+@media screen and (max-width: 424px) {
+    .container {
+        padding: 0 15px 0 15px;
+    }
+
+    .header {
+        padding: 34px 0 24px 0;
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .header__container {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        padding: 0;
+        background: rgba(255, 255, 255, 0.82);
+    }
+
+    .menu__list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .menu__link {
+        font-size: 24px;
+        color: #821328;
+        padding-bottom: 30px;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .menu__close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #821328;
+        position: absolute;
+        top: 34px;
+        right: 28px;
+    }
+
+    .main__title {
+        font-size: 32px;
+        padding-top: 30px;
+    }
+
+    .main__text {
+        padding: 40px 0;
+        font-size: 16px;
+    }
+
+    .main__img {
+        width: 250px;
+    }
+
+    .main__box-of-macaroons {
+        width: 100%;
+    }
+
+    .main__img::before,
+    .main__img::after {
+        content: '';
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        border: 1px solid rgb(119, 11, 29);
+        z-index: -1;
+        top: calc(50% - 85px);
+        left: calc(50% - 85px);
+    }
+
+    .about {
+        padding: 100px 0 100px 0;
+    }
+
+    .about__title {
+        font-size: 30px;
+        max-width: 316px;
+    }
+
+    .about__text {
+        max-width: 346px;
+        padding: 40px 0 59px 0;
+    }
+
+    .about__img {
+        width: 302px;
+    }
+
+    .about__advantages {
+        grid-template: repeat(2, 269px) / repeat(2, 166px);
+        column-gap: 15px;
+        padding-top: 60px;
+    }
+
+    .about__advantage {
+        width: 165px;
+    }
+
+    .about__advantage-title {
+        font-size: 18px;
+        padding-top: 14px;
+    }
+
+    .about__advantage-text {
+        font-size: 13px;
+    }
+
+    .products {
+        padding: 100px 0;
+    }
+
+    .products__title {
+        font-size: 30px;
+        padding-bottom: 122px;
+    }
+
+    .products__list {
+        grid-template: 4fr / 263px;
+        row-gap: 142px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .order {
+        padding: 100px 0 77px 0;
+    }
+
+    .order__title {
+        font-size: 30px;
+        padding-bottom: 44px;
+    }
+
+    .order__text {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .order__input,
+    .order_btn {
+        width: 344px;
+    }
+
+    .order_btn {
+        font-size: 18px;
+    }
+
+    .order__strawberry {
+        left: 275px;
+        top: 133px;
+    }
+
+    @keyframes jump {
+        0% {
+            top: 133px;
+        }
+        50% {
+            top: 120px;
+        }
+        100% {
+            top: 133px;
+        }
+    }
+}
+
+/*320 - 374px*/
+@media screen and (max-width: 374px) {
+
+    .about__img {
+        width: 290px;
+    }
+
+    .about__advantages {
+        grid-template: repeat(2, 269px) / repeat(2, 137px);
+        column-gap: 10px;
+    }
+
+    .about__advantage {
+        width: 137px;
+    }
+
+    .about__advantage-text {
+        font-size: 11px;
+    }
+
+    .order__text {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .order__img {
+        display: none;
+    }
+
+    .order__input,
+    .order_btn {
+        width: 290px;
+    }
+
+    .order_btn {
+        font-size: 18px;
+    }
+
+    .order__strawberry {
+        left: 220px;
+        top: 133px;
+    }
+
+    @keyframes jump {
+        0% {
+            top: 133px;
+        }
+        50% {
+            top: 120px;
+        }
+        100% {
+            top: 133px;
+        }
+    }
+}
