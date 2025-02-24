@@ -62,6 +62,7 @@ Figma (работа с макетами)
 Photoshop (работа с макетами)
 
 
+
 Контакты:
 
 Email: tsokka.s@mail.ru
