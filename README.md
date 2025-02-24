@@ -50,14 +50,21 @@
    Откройте папку с нужным проектом и запустите index.html в браузере.
    
 Технологии:
-HTML, 
-CSS (Flexbox, Grid, анимации), 
-JavaScript (базовый и продвинутый функционал), 
-Figma (работа с макетами), 
-Photoshop (работа с макетами), 
+
+HTML
+
+CSS (Flexbox, Grid, анимации)
+
+JavaScript (базовый и продвинутый функционал)
+
+Figma (работа с макетами)
+
+Photoshop (работа с макетами)
+
 
 Контакты:
 
 Email: tsokka.s@mail.ru
+
 GitHub: tsokka
    
