@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("../assets/images/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    padding: 35px 0 33px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 282px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu-item {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.menu-item a {
+    font-size: 16px;
+    font-family: Arial, serif;
+    color: rgb(237, 224, 248);
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.layout {
+    padding: 153px 0 205px 0;
+}
+
+.layout-title {
+    font-size: 45px;
+    font-family: Arial, serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    max-width: 452px;
+    margin-bottom: 80px;
+}
+
+.layout-list {
+    list-style: none;
+}
+
+.layout-element {
+    display: flex;
+    align-items: center;
+}
+
+.star-layout {
+    vertical-align: bottom;
+    margin-right: 14px;
+}
+
+.layout-text {
+    font-size: 16px;
+    font-family: Arial, serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    width: 224px;
+    padding: 22px 23px 23px 23px;
+    font-family: Arial, serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button.button-white {
+    margin-top: 99px;
+    color: white;
+    border: 2px solid white;
+}
+
+.education {
+    padding: 139px 0 140px 0;
+}
+
+.education-title {
+    font-size: 35px;
+    font-family: Arial, serif;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    margin-bottom: 68px;
+}
+
+.education-element {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.star-education {
+    vertical-align: bottom;
+    margin-right: 16px;
+}
+
+.education-text {
+    font-size: 16px;
+    font-family: Arial, serif;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.third {
+    background-image: url("../assets/images/bg2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.course {
+    padding: 140px 0 140px 0;
+}
+
+.course-container {
+    max-width: 996px;
+    background: white;
+    padding: 60px 60px 44px 60px;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.curse-title {
+    font-size: 35px;
+    font-family: Arial, serif;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.course-text {
+    font-size: 16px;
+    font-family: Arial, serif;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    margin: 0 auto 30px auto;
+    max-width: 588px;
+    text-align: center;
+}
+
+.roman {
+    font-weight: bold;
+}
+
+.button.button-violet {
+    margin-top: 10px;
+    color: #b180e4;
+    border: 2px solid #b180e4;
+}
+
+.footer {
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 46px 0;
+    text-align: center;
+}
