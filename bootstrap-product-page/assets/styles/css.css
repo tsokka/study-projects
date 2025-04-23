@@ -1,0 +1,116 @@
+.btn-outline-success {
+    --bs-btn-color: #007bff;
+    --bs-btn-border-color: #007bff;
+    --bs-btn-hover-bg: #007bff;
+    --bs-btn-hover-border-color: #007bff;
+    --bs-btn-active-bg: #007bff;
+    --bs-btn-active-border-color: #007bff;
+    --bs-btn-disabled-color: #007bff;
+    --bs-btn-disabled-border-color: #007bff;
+    width: 100px;
+}
+
+.slick-slider img {
+    height: 640px;
+    width: 1318px;
+}
+
+.slick-custom-prev,
+.slick-custom-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255);
+    border: 1px solid #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+.slick-custom-prev {
+    left: 15px !important;
+}
+
+.slick-custom-next {
+    right: 15px !important;
+}
+
+.btn-primary {
+    --bs-btn-bg: #007bff;
+    --bs-btn-border-color: #007bff;
+    --bs-btn-hover-bg: #007bff;
+    --bs-btn-hover-border-color: #007bff;
+    --bs-btn-active-bg: #007bff;
+    --bs-btn-active-border-color: #007bff;
+    --bs-btn-disabled-bg: #007bff;
+    --bs-btn-disabled-border-color: #007bff;
+    max-width: 10.625rem;
+}
+
+.card-img-top {
+    height: 11.25rem;
+}
+
+#accordion {
+    max-width: 53.5rem;
+}
+
+.ui-accordion {
+    --bs-accordion-color: #fff;
+    --bs-accordion-active-bg: #007BFF;
+    --bs-accordion-active-color: #007BFF;
+    --bs-accordion-border-color: #007BFF;
+    --bs-accordion-bg: #007BFF;
+}
+
+.ui-accordion .ui-accordion-header {
+    color: var(--bs-accordion-color);
+    border: 1px solid var(--bs-accordion-border-color);
+    background: linear-gradient(360deg, #076BFF 0%, #007BFF 100%) !important;
+}
+
+.ui-accordion-content {
+    border: 1px solid var(--bs-accordion-color);
+}
+
+.accordion-icon {
+    transition: transform 0.3s ease;
+}
+
+.ui-accordion-header-active .accordion-icon {
+    transform: rotate(180deg);
+}
+
+.form,
+.card {
+    max-width: 39.75rem;
+}
+
+@media (max-width: 1199px) {
+    .slick-slider img {
+        height: 440px;
+    }
+
+    .slick-custom-prev,
+    .slick-custom-next {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .slick-slider img {
+        height: 340px;
+    }
+}
+
+@media (max-width: 767px) {
+    .slick-slider img {
+        height: 240px;
+    }
+}
