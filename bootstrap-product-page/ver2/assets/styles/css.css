@@ -1,0 +1,206 @@
+.swiper-wrapper {
+    max-height: 640px;
+}
+
+.swiper-slide {
+    height: 640px;
+}
+
+.slide-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../images/img1.png");
+    background-size: cover;
+    transform: rotate(180deg);
+    height: 640px;
+    z-index: -1;
+}
+
+.img1 {
+    width: 100%;
+    max-height: 640px;
+    transform: rotate(180deg);
+}
+
+.slide-2 {
+    background-color: #F8F9FA;
+    height: 640px;
+}
+
+.slide-2-yellow {
+    background-color: #EFD585;
+    width: 38%;
+    height: 66%;
+    transform: rotate(10deg);
+    top: 18%;
+    right: 6%;
+}
+
+.img2 {
+    width: 38%;
+    height: 65%;
+    transform: rotate(0);
+    top: 18%;
+    right: 6%;
+}
+
+.img2.border {
+    --bs-border-color: #007bff;
+}
+
+.slide-3 {
+    overflow: hidden;
+}
+
+.slide-3::before {
+    content: "";
+    position: absolute;
+}
+
+.slide-3::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 230%;
+    background-image: url("../images/img3.png");
+    background-size: contain;
+    background-position: center;
+    transform: rotate(-90deg);
+    z-index: -1;
+}
+
+.slide-2-text {
+    width: 70%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    --swiper-theme-color: #007bff;
+}
+
+.btn-primary,
+.btn-outline-success {
+    --bs-btn-bg: #007bff;
+    --bs-btn-border-color: #007bff;
+    --bs-btn-hover-bg: #007bff;
+    --bs-btn-hover-border-color: #007bff;
+    --bs-btn-active-bg: #007bff;
+    --bs-btn-active-border-color: #007bff;
+    --bs-btn-disabled-bg: #007bff;
+    --bs-btn-disabled-border-color: #007bff;
+    --bs-btn-color: #fff;
+    --bs-btn-disabled-color: #fff;
+}
+
+.btn-primary {
+    width: 10.625rem;
+}
+
+
+.card-img-top {
+    height: 11.25rem;
+}
+
+#accordionExample {
+    max-width: 53.5rem;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background: linear-gradient(360deg, #076BFF 0%, #007BFF 100%);
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.form,
+.card {
+    max-width: 39.75rem;
+}
+
+
+@media (max-width: 1399px) {
+    .slide-2-text p {
+        font-size: 32px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .swiper-slide,
+    .slide-1::before,
+    .slide-2::before {
+        height: 440px;
+    }
+
+    .slide-2-text p {
+        font-size: 24px !important;
+    }
+
+    .slick-custom-prev,
+    .slick-custom-next {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slide-1-text,
+    .slide-2-text,
+    .slide-3-text {
+        margin-left: 120px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .swiper-slide,
+    .slide-1::before,
+    .slide-2::before {
+        height: 340px;
+    }
+
+    .slide-2-text p {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .swiper-slide,
+    .slide-1::before,
+    .slide-2::before {
+        height: 240px;
+    }
+
+    .slide-1-text p,
+    .slide-2-text p,
+    .slide-3-text p {
+        font-size: 18px !important;
+    }
+
+    .slide-1-text p:nth-child(2) {
+        font-size: 14px !important;
+    }
+
+    .slide-2-yellow,
+    .slide-2 img {
+        z-index: -1;
+    }
+}
+
+@media (min-width: 529px) {
+    .slide-2-text {
+        width: 39%;
+    }
+
+    .img2 {
+        transform: rotate(-90deg);
+    }
+
+    .slide-2-yellow {
+        transform: rotate(100deg);
+    }
+}
