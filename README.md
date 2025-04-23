@@ -46,9 +46,9 @@
 ### 9. Интернет-магазин (лендинг)
 - **Описание:** Адаптивная страница товаров с интерактивными элементами, созданная по макету Figma.
 - **Технологии:**
-- • HTML5, CSS3, PhotoSwipe
-- • Библиотеки: Bootstrap 5, jQuery 3.6+, JQueryUI, Swiper.js, wow.js, hover.css
-- • Плагины: slick, jQuery Validation
+  • HTML5, CSS3, PhotoSwipe
+  • Библиотеки: Bootstrap 5, jQuery 3.6+, JQueryUI, Swiper.js, wow.js, hover.css
+  • Плагины: slick, jQuery Validation
 - **[Посмотреть проект](/bootstrap-product-page)**
 
 ## Как использовать
