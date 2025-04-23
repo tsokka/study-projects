@@ -43,24 +43,19 @@
 - **Технологии:** HTML, CSS, JavaScript.
 - **[Посмотреть проект](/registration-form)**
 
+### 9. Интернет-магазин (лендинг)
+- **Описание:** Адаптивная страница товаров с интерактивными элементами, созданная по макету Figma.
+- **Технологии:**
+• HTML5, CSS3, PhotoSwipe
+• Библиотеки: Bootstrap 5, jQuery 3.6+, JQueryUI, Swiper.js, wow.js, hover.css
+• Плагины: slick, jQuery Validation
+- **[Посмотреть проект](/bootstrap-product-page)**
+
 ## Как использовать
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/tsokka/study-projects.git
    Откройте папку с нужным проектом и запустите index.html в браузере.
-   
-Технологии:
-
-HTML
-
-CSS (Flexbox, Grid, анимации)
-
-JavaScript (базовый и продвинутый функционал)
-
-Figma (работа с макетами)
-
-Photoshop (работа с макетами)
-
 
 
 Контакты:
